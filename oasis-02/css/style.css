@@ -1,0 +1,109 @@
+*{
+    margin: 0 0 30px 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    background:#eeeeee;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    /*recommend 1920 / 1080 max based on usage stats, use 100% to that point*/
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    max-height: 600px;
+    background:#fafafa;
+    -webkit-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+}
+
+.green{
+margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+}
+.green p{
+
+
+    margin: auto;
+      width: 70%;
+      font-weight: bold;
+      padding: 10px;
+      font-size: x-large;
+    }
+
+.context{
+    text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  margin:20px 0;
+}
+.context > ol{
+    display: inline-block;
+}
+.context ol li{
+    list-style-type:disc;
+    padding-bottom: 5px;
+    
+}
+
+.box {
+    display: grid;
+    align-items:center;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 70px;
+  }
+  
+  .image{
+    width:100%;
+    height:100%;
+  }
+  img {
+    
+    max-width: 100%;
+    max-height:100%;
+    
+  }
+  
+  .text {
+    font-size: 17px;
+    padding-left: 10px;  
+     
+  }
+  .text h2{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .text p{
+    text-align: center;
+    max-width: 90%;
+  }
+  .box-left{
+    display: grid;
+    align-items:center;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 70px;
+
+  }
+  .last{
+    margin-top: 90px;
+    text-align: center;
+  }
+  
